@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #e5e5e5;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  border-radius: 3.2rem;
+}
+nav {
+  display: flex;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+}
+#logo {
+  flex: 2 1 40rem;
+}
+a {
+  text-decoration: none;
+  color: #b3a7a7;
+  font-size: 1.5rem;
+  text-shadow: black;
+}
+li {
+  list-style: none;
+  font-family: "Charmonman", cursive;
+  font-weight: 800;
+}
+
+li a {
+  font-family: "Charmonman", cursive;
+  font-weight: 800;
+  color: black;
+}
+li button {
+  font-family: "Charmonman", cursive;
+  font-weight: 800;
+  border-radius: 71px;
+  background: #e0e0e0;
+  box-shadow: -10px -10px 12px #898989, 10px 10px 12px #ffffff;
+}
+
+a img {
+  height: 4.5rem;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 40px #848484, -20px -20px 40px #ffffff;
+}
+main {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 90vh;
+}
+.into-img {
+  flex: 1 1 40rem;
+}
+.intro-text {
+  flex: 1 1 40rem;
+}
+.intro-img img {
+  width: 40rem;
+}
+.intro-text h2 {
+  font-size: 4rem;
+  margin: 2rem 0;
+  font-family: "Fredoka One", cursive;
+}
+.intro-text h3 {
+  font-size: 2rem;
+  margin-top: 5.7rem;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 0.6rem;
+  color: #696969;
+  font-weight: 200;
+}
+#work img {
+  margin-right: 4rem;
+  width: 4rem;
+}
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: white;
+  border-radius: 71px;
+  background: #cf5050;
+  box-shadow: -10px -10px 12px #898989, 10px 10px 12px #ffffff;
+}
+.bt-text {
+  margin-right: 3rem;
+}
+.about-me {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.about-me img {
+  width: 20rem;
+  border-radius: 50%;
+}
+.about-pic {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
